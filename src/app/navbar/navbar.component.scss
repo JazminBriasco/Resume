@@ -1,0 +1,16 @@
+@import "../variables";
+
+.navbar{
+ height: $nav-height;
+ z-index: 1;
+ position:fixed;
+ width: 100%;
+
+}
+.nav-text {
+    color: $principal-background-color;
+    font-size: 35px;
+    padding-right: 10px;
+    font-weight: bolder;
+    
+}
