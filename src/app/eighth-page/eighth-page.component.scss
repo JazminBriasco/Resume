@@ -1,7 +1,10 @@
 @import "../variables";
 
-.third-page {
+.eighth-page {
     background-image: $eighth-page-bkg;
     @include backgrounds;
+    .list-group-flush {
+        padding-left: 30%;
+        padding-top: 30%;
+    }    
 }    
-

@@ -1,7 +1,46 @@
 @import "../variables";
 
-.third-page {
+.fifth-page {
     background-image: $fifth-page-bkg;
     @include backgrounds;
+    .row-fifth {
+        padding-top: 15%;
+         width: 15%;
+         text-align: center;
+        .col-fifth{
+            padding-top: 34%;
+            background: $circle-colors;
+            border-radius: 50%;
+            margin-left: 6%;
+            margin-right: 6%;
+            height: 25vh;
+            font-size: 30px;
+        }
+    }
+    .hr-fifth {
+        border: 4px solid;
+        width: 89%;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+    .text-fifth{ 
+        width: 500px;
+    }
+    .text-fifth-1 {
+        background-color: aqua;
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 5%;
+        width: 300px;
+        height: 200px;
+    }
+
+    .text-fifth-2 {
+        background-color: aqua;
+        width: 30%;
+        margin-left: 15%;
+    }
+   
 }    
 

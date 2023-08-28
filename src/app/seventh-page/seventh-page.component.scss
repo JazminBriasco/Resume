@@ -1,7 +1,12 @@
 @import "../variables";
 
-.third-page {
+.seventh-page {
     background-image: $seventh-page-bkg;
+    width: 50%;
     @include backgrounds;
-}    
+    .seventh-text
+    {
+        width: 50%;
+        padding-top: 15%;
+    }    }    
 

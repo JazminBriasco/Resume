@@ -1,7 +1,46 @@
 @import "../variables";
 
-.third-page {
+.fourth-page {
     background-image: $fourth-page-bkg;
     @include backgrounds;
+    .row-fourth {
+        padding-top: 15%;
+         width: 100%;
+         text-align: center;
+        .col-fourth{
+            padding-top: 5%;
+            background: $circle-colors;
+            border-radius: 50%;
+            margin-left: 6%;
+            margin-right: 6%;
+            height: 25vh;
+            font-size: 30px;
+        }
+    }
+    .hr-fourth {
+        border: 4px solid;
+        width: 89%;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+    .text-fourth-1 {
+        background-color: aqua;
+        position: absolute;
+        margin-left: 45%;
+        margin-top: 10%;
+        width: 300px;
+    }
+
+    .text-fourth-2 {
+        background-color: aqua;
+        width: 50%;
+        margin-left: 15%;
+    }
+    .text-fourth-3{
+        background-color: aqua;
+        width: 10%;
+        margin-left: 15%;
+    }
 }    
 
