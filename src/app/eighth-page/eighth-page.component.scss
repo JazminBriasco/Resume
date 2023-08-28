@@ -1,0 +1,7 @@
+@import "../variables";
+
+.third-page {
+    background-image: $eighth-page-bkg;
+    @include backgrounds;
+}    
+
