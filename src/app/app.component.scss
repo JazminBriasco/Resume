@@ -19,13 +19,14 @@
       padding: 10px;
       background-color: rgba(161, 141, 164, 0.6);
       text-align: center;
-    
+
       .jum-first-text {
             margin-top: 4%;
             line-height: 90px;
             font-size: 100px;
             opacity: 1;
             text-transform: uppercase;
+            font-weight: bold;
         }
         .jum-second-text {
             font-size: 50px;
@@ -34,18 +35,4 @@
 
     }
 }
-.container {
 
-}
-
-
-.third-page{
-    background-color: antiquewhite;
-    width: 150%;
-    
-    height: 100vh;
-    .row {
-        text-align: center;
-
-    }
-}

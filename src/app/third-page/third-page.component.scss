@@ -6,17 +6,52 @@
 }    
 
 .container-third {
-    padding-top: 5%;
-   /*kground-color: aqua;*/
-    width: 100%;
+    padding-top: 7%;
+    width: 70%;
     text-align: center;
     vertical-align: auto;
     .row-third {
         height: 20vh;
     }
     .col {
-        border: 1px solid black;
-        padding-top:6%;
+        background-color: rgba(255, 244, 250, 0.5);
+        padding-top: 1%;
+        .img-1{
+            background-image: url(../images/java.png);
+            @include col-img;
+        }
+        .img-2{
+            background-image: url(../images/angular_logo_icon_169595.png);
+            @include col-img;
+        }
+        .img-3{
+            background-image: url(../images/dot_net_original_wordmark_logo_icon_146547.png);
+            @include col-img;
+        }
+        .img-4{
+            background-image: url(../images/file_type_git_icon_130581.png);
+            @include col-img;
+        }
+        .img-5{
+            background-image: url(../images/file_type_php_icon_130266.png);
+            @include col-img;
+        }
+        .img-6{
+            background-image: url(../images/javascript_icon_130900.png);
+            @include col-img;
+        }
+        .img-7{
+            background-image: url(../images/sass_original_logo_icon_146350.png);
+            @include col-img;
+        }
+        .img-8{
+            background-image: url(../images/react_original_logo_icon_146374.png);
+            @include col-img;
+        }
+        .img-9{
+            background-image: url(../images/mysql_original_wordmark_logo_icon_146417.png);
+            @include col-img;
+        }
     }
 }
 

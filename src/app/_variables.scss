@@ -23,3 +23,11 @@ $eighth-page-bkg: url(../app/images/bkg8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@mixin col-img(){
+    background-repeat: no-repeat;
+    height: 150px;
+    margin-left: 25%;
+    background-size: contain;
+}
+

@@ -5,12 +5,18 @@
  z-index: 1;
  position:fixed;
  width: 100%;
-
-}
-.nav-text {
-    color: $principal-background-color;
-    font-size: 35px;
-    padding-right: 10px;
-    font-weight: bolder;
-    
+    .nav-text {
+        color: $principal-background-color;
+        font-size: 35px;
+        padding-right: 10px;
+        font-weight: bolder;   
+        .img-nav {
+            background-image: url(../images/flower_icon-icons.com_74457.png);
+            height: 45px;
+            width: 45px;
+            background-size: contain;
+            position: absolute;
+            margin-top: 4px;
+        }
+    }
 }
