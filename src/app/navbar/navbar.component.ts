@@ -15,7 +15,7 @@ export class NavbarComponent implements OnInit {
   @HostListener('window:scroll', ['$event'])
   
   onWindowScroll() {
-    let height = (screen.height - 200);
+    let height = (screen.height - 150);
       if(window.scrollY <= height) {
         this.navTittle = '';
       }
