@@ -6,26 +6,27 @@
 }    
 
 .container-third {
-    padding-top: 7%;
+    padding-top: 6%;
     width: 70%;
     text-align: center;
     vertical-align: auto;
     .row-third {
         height: 20vh;
+        margin-bottom: 4%;
     }
     .col {
         background-color: rgba(255, 244, 250, 0.5);
         padding-top: 1%;
         .img-1{
-            background-image: url(../images/java.png);
             @include col-img;
+            background-image: url(../images/angular_logo_icon_169595.png);
         }
         .img-2{
-            background-image: url(../images/angular_logo_icon_169595.png);
+            background-image: url(../images/javascript_icon_130900.png);
             @include col-img;
         }
         .img-3{
-            background-image: url(../images/dot_net_original_wordmark_logo_icon_146547.png);
+            background-image: url(../images/sass_original_logo_icon_146350.png);
             @include col-img;
         }
         .img-4{
@@ -37,15 +38,15 @@
             @include col-img;
         }
         .img-6{
-            background-image: url(../images/javascript_icon_130900.png);
+            background-image: url(../images/dot_net_original_wordmark_logo_icon_146547.png);
             @include col-img;
         }
         .img-7{
-            background-image: url(../images/sass_original_logo_icon_146350.png);
+            background-image: url(../images/react_original_logo_icon_146374.png);
             @include col-img;
         }
         .img-8{
-            background-image: url(../images/react_original_logo_icon_146374.png);
+            background-image: url(../images/java.png);
             @include col-img;
         }
         .img-9{
@@ -53,6 +54,15 @@
             @include col-img;
         }
     }
+    .img-hover {
+        transition: 0.4s;
+    }
+    .img-hover:hover {
+        background-color:  rgba(161, 141, 164, 0.6);
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+    }
+ 
 }
 
 

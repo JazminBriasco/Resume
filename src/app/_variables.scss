@@ -3,7 +3,9 @@ $bgk-color: #fef4fa;
 $nav-height: 60px;
 $principal-background-color: #fff4f9;
 $circle-colors: #c06a83;
-$font-size-general: 30px;
+$hover-color: #9c143b;
+$font-size-general: 25px;
+$font-size-text: 20px;
 $first-page-bkg: url(../app/images/photo1680546059.jpg);
 $second-page-bkg: url(../app/images/bkg2.jpg);
 $third-page-bkg: url(../app/images/bkg3.jpg);
@@ -27,7 +29,17 @@ $eighth-page-bkg: url(../app/images/bkg8.jpg);
 @mixin col-img(){
     background-repeat: no-repeat;
     height: 150px;
+    margin: 10px;
     margin-left: 25%;
     background-size: contain;
+}
+
+@mixin uppercase() {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+@mixin quote() {
+    font-style: italic;
+    font-size: 13px;
 }
 

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'resume';
+  smallScreen = false;
+
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.smallScreen = screen.width <= 1300 ? true : false;
+  }
+
 }
+

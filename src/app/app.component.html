@@ -1,4 +1,13 @@
 
+<div class="smallScreen" *ngIf="smallScreen;  else elseBlock">
+  <div class="smallScreenMsg">Responsive incoming, please view this page in a resolution greater than 1300px, thanks!
+  <br><div class="smallScreenImg"></div> 
+
+  </div> 
+</div>
+<ng-template #elseBlock>
+
+
 <app-navbar></app-navbar>
 <div class="first-page">
   <div class="jum-first-page">
@@ -15,6 +24,7 @@
 <app-eighth-page></app-eighth-page>
 <app-footer></app-footer>
 
+</ng-template>
 <!--
 <div class="third-page container">
   <div class="row">
@@ -58,3 +68,4 @@
 </div>-->
 
 <router-outlet></router-outlet>
+

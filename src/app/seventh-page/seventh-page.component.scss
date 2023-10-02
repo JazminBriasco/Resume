@@ -3,10 +3,12 @@
 .seventh-page {
     background-image: $seventh-page-bkg;
     width: 50%;
+    font-size: $font-size-text;
     @include backgrounds;
     .seventh-text
     {
         width: 50%;
         padding-top: 15%;
+        padding-left: 3%;
     }    }    
 
