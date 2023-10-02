@@ -15,28 +15,29 @@ export class NavbarComponent implements OnInit {
   @HostListener('window:scroll', ['$event'])
   
   onWindowScroll() {
-      if(window.scrollY <= 700) {
+    let height = (screen.height - 200);
+      if(window.scrollY <= height) {
         this.navTittle = '';
       }
-      if(window.scrollY >= 700 && window.scrollY <= 1400) {
+      if(window.scrollY >= height && window.scrollY <= (height*2)) {
         this.navTittle = 'Hi!';
       }
-      if(window.scrollY >= 1400 && window.scrollY <= 2200) {
+      if(window.scrollY >=(height*2) && window.scrollY <=(height*3)) {
         this.navTittle = 'Knowledge';
       }
-      if(window.scrollY >= 2200 && window.scrollY <= 2800) {
+      if(window.scrollY >=(height*3) && window.scrollY <=(height*4)) {
         this.navTittle = 'Education';
       }
-      if(window.scrollY >= 3000 && window.scrollY <= 3800) {
+      if(window.scrollY >=(height*4) && window.scrollY <=(height*5)) {
         this.navTittle = 'Experiencie';
       }
-      if(window.scrollY >= 3800 && window.scrollY <= 4500) {
+      if(window.scrollY >=(height*5) && window.scrollY <=(height*6)) {
         this.navTittle = 'Certifications';
       }
-      if(window.scrollY >= 4500 && window.scrollY <= 5100) {
+      if(window.scrollY >=(height*6) && window.scrollY <=(height*7)) {
         this.navTittle = 'Soft Skills';
       }
-      if(window.scrollY >= 5100) {
+      if(window.scrollY >=(height*7)) {
         this.navTittle = 'Contact';
       }
     }
