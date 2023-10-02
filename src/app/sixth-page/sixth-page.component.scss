@@ -3,9 +3,19 @@
 .sixth-page {
     background-image: $sixth-page-bkg;
     @include backgrounds;
+    font-size: $font-size-text;
     .list-group-flush {
-        padding-left: 30%;
-        padding-top: 30%;
+        padding-left: 40%;
+        padding-top: 32%;
     }    
+    a {
+        color: $circle-colors;
+        transition: 0.3s;
+    }
+    a:hover {
+        color: $hover-color;
+        font-size: 22px;
+        text-decoration: none;
+    }
 }    
 

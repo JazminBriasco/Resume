@@ -34,5 +34,39 @@
         }
 
     }
+    .jum-first-page {
+        transition: 0.4s;
+    }
+    .jum-first-page:hover  {
+        width: 1000px;
+        height: 550px;
+        padding-top: 10%;
+    }
 }
 
+.smallScreen {
+    background-color: #fff4fa;
+    background-image: url(images/bkg4.jpg);
+    @include backgrounds;
+    align-items: center;
+    margin-top: 10%;
+    background-size: contain;
+    .smallScreenImg {
+        background-image: url(images/004responsive_101510.png);
+        width: 12%;
+        height: 11vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 0 auto;
+
+    }
+    .smallScreenMsg {
+        text-align: center;
+        border: 1px solid #000000;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        padding: 10px;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
