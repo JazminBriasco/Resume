@@ -12,6 +12,7 @@ import { SixthPageComponent } from './sixth-page/sixth-page.component';
 import { SeventhPageComponent } from './seventh-page/seventh-page.component';
 import { EighthPageComponent } from './eighth-page/eighth-page.component';
 import { FooterComponent } from './footer/footer.component';
+import { NewJobComponent } from './new-job/new-job.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     SixthPageComponent,
     SeventhPageComponent,
     EighthPageComponent,
-    FooterComponent
+    FooterComponent,
+    NewJobComponent
   ],
   imports: [
     BrowserModule,
